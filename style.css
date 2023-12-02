@@ -7,6 +7,8 @@ body {
     background-color: #1F2937;
 }
 
+/* Header */
+
 .headertext h2 {
     margin: 0;
     font-size: 24px;
@@ -32,3 +34,5 @@ body {
     gap: 50px;
     flex-wrap: wrap;
 }
+
+/* Section One Main Text */
