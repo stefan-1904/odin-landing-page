@@ -1,41 +1,34 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto);
-
 body {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
-    font-family: "Roboto", sans-serif;
-
 }
 
-.section-one-container {
+.sectionone {
     background-color: #1F2937;
-    display: flex;
-    flex-direction: column;
-    padding: 0 200px;
 }
 
-.section-one-header h2 {
+.headertext h2 {
+    margin: 0;
     font-size: 24px;
     color: #F9FAF8;
+    padding-right: 20px;
 }
 
-.section-one-header {
+.headertext {
     display: flex;
+    padding: 20px 200px;
+    align-items: center;
     justify-content: space-between;
 }
 
-.header-links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
-}
-
-a, :visited {
+.headerlinks a {
+    font-size: 18px;
+    color: #E5E7EB;
     text-decoration: none;
-    color:#F9FAF8;
 }
 
-.section-one-image {
-    max-width: 500px;
-    max-height: 500px;
+.headerlinks {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
 }
