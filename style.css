@@ -21,7 +21,7 @@ body {
 .headerBox {
     display: flex;
     justify-content: space-between;
-    padding: 20px 150px;
+    padding: 20px 300px;
     background-color: #1F2937;
 }
 
@@ -35,4 +35,60 @@ body {
     display: flex;
     gap: 40px;
     align-items: center;
+}
+
+/* Hero Text */
+
+.heroBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 150px;
+    gap: 300px;
+    background-color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.heroText h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.heroText p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.heroText button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #F9FAF8;
+    width: 125px;
+    height: 40px;
+    border-radius: 7px;
+    border: 0;
+}
+
+.heroText {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 420px;
+    height: auto;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.dogImage {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
 }
