@@ -46,6 +46,8 @@ body {
     padding-right: 150px;
     gap: 300px;
     background-color: #1F2937;
+    padding-top: 50px;
+    padding-bottom: 100px;
     margin-bottom: 50px;
 }
 
@@ -91,4 +93,14 @@ body {
     width: 600px;
     height: 300px;
     object-fit: cover;
+}
+
+/* Information */
+
+.infoBox h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
 }
