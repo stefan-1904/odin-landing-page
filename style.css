@@ -51,6 +51,7 @@ body {
     margin-bottom: 50px;
 }
 
+
 .heroText h1 {
     font-size: 48px;
     font-weight: 800;
@@ -89,13 +90,18 @@ body {
     margin-top: 50px;
 }
 
-.dogImage {
+.heroImage {
     width: 600px;
-    height: 300px;
+    height: 250px;
     object-fit: cover;
+    padding-top: 30px;
 }
 
 /* Information */
+
+.infoBox {
+    margin-bottom: 100px;
+}
 
 .infoBox h1 {
     display: flex;
@@ -103,4 +109,27 @@ body {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+}
+
+.infoContainers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-top: 40px;
+}
+
+.infoContainers img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.infoContainers figcaption {
+    width: 200px;
+    height: auto;
+    text-align: center;
 }
